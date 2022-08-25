@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Amiri&family=BIZ+UDMincho&family=Cairo:wght@300&family=Josefin+Sans:wght@200&family=Open+Sans:wght@300&family=Rakkas&family=Ramaraja&family=Righteous&family=Sansita+Swashed&display=swap");
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <h1>Contact Us!</h1>
+      <form action="https://formsubmit.co/farah.kh120@gmail.com" method="POST">
+        <input type="text" name="Name" placeholder="Full Name" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <select name="Gulf Country">
+          <option>Kuwait</option>
+          <option>UAE</option>
+          <option>Saudia Arabia</option>
+          <option>Qatar</option>
+          <option>Bahrain</option>
+          <option>Oman</option>
+        </select>
+        <textarea
+          name="Message"
+          cols="26"
+          rows="5"
+          placeholder="Message to Us!"
+        ></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </div> -->
+
+    <section id="contactME">
+      <h1>Contact Me</h1>
+
+      <form
+        action="https://formsubmit.co/farah.kh120@gmail.com"
+        method="POST"
+        class="container"
+      >
+        <div class="field name-box">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            class="input"
+            placeholder="Who Are You?"
+            required
+          />
+        </div>
+
+        <div class="field email-box">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            class="input"
+            placeholder="name@email.com"
+            required
+          />
+        </div>
+
+        <div class="field msg-box">
+          <label for="msg">Msg</label>
+          <textarea
+            name="Message"
+            id="msg"
+            placeholder="Your message goes here..."
+          ></textarea>
+        </div>
+
+        <input id="farah" class="button" type="submit" value="Send" />
+      </form>
+    </section>
+  </body>
+</html>

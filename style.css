@@ -1,0 +1,260 @@
+body {
+  background-color: #dad7cd;
+  height: 100vh;
+  font-family: "Amiri", serif;
+  text-transform: uppercase;
+
+}
+
+#contactME {
+  background-color: #344e41;
+  width: 80%;
+  margin: 120px auto;
+  text-align: center;
+  padding: 50px 50px;
+  border-top: 15px solid #588157;
+  max-width: 1100px;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 60px;
+  color: #dad7cd;
+  font-weight: bolder;
+  margin-left: 1em;
+
+}
+
+form {
+  padding: 50px;
+  width: 60%;
+  margin:auto;
+ overflow: hidden;
+  
+}
+
+.field {
+  margin-bottom: 25px;
+  width: 700px;
+  /*width 100% for the responsiveness  */
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+
+}
+
+label {
+  color:black;
+  font-size: 30px;
+  letter-spacing: 2px;
+  width: 100%;
+  font-weight: bolder;
+ position: absolute;
+ background-color: #dad7cd;
+ 
+}
+
+ .field:hover label {
+    width: 18%;
+    background: #002038;
+    color: #b2aeae;
+  }
+
+.input {
+  height: 50px;
+  width: 700px;
+padding-left: 20%;
+
+ 
+}
+
+textarea {
+  height: 50px;
+  width: 700px;
+padding-left: 20%;
+}
+
+
+#farah {
+
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 2px;
+  border: none;
+  background-color: #dad7cd;
+  font-size: large;
+  color: #344e41;
+  font-weight: bolder;
+  font-family: "Amiri", serif;
+  text-transform: uppercase;
+  margin-left: 2em;
+}
+#farah:hover {
+  background-color: #588157;
+  color: #dad7cd;
+  transition: 0.5s;
+} 
+
+/* body section {
+  margin: 60px auto 120px;
+  border-top: 15px solid #b095c6;
+  text-align: center;
+  padding: 50px 0 110px;
+  width: 80%;
+  max-width: 1100px;
+} */
+/* body {
+  background: #f3eded;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #061a41;
+}
+body section {
+  background: #e1adc1;
+  margin: 60px auto 120px;
+  border-top: 15px solid #b095c6;
+  text-align: center;
+  padding: 50px 0 110px;
+  width: 80%;
+  max-width: 1100px;
+}
+body section h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+}
+form {
+  width: 58.3333333333%;
+  margin: 0 auto;
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f5c6db;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field label + span {
+  font-family: "SSStandard";
+  opacity: 0;
+  color: #b062da;
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 7%;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 0 #022474;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  background: #a8c8e1;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #002038;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+  height: 18px;
+  resize: none;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"]:focus,
+form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg,
+form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label,
+form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #b095c6;
+  color: #002038;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #c686c1;
+}
+form .field:hover label {
+  width: 18%;
+  background: #002038;
+  color: #b2aeae;
+}
+ form input[type="submit"] {
+  background: #b095c6;
+  color: #002038;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #487f4b;
+  color: #c3dd64;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #6b6ab4;
+} 
+
+@media (max-width: 765px) {
+  form {
+    width: 100%;
+  }
+  body section {
+    width: 100%;
+  }
+}
