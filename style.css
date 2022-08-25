@@ -83,3 +83,12 @@ label {
   color: #dad7cd;
   transition: 0.3s ease-in;
 }
+
+.p {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: xx-large;
+  color: #588157;
+  cursor: pointer;
+}
