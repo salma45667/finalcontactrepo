@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Amiri&family=BIZ+UDMincho&family=Cairo:wght@200;300&family=Josefin+Sans:wght@200&family=Open+Sans:wght@300&family=Rakkas&family=Ramaraja&family=Righteous&family=Sansita+Swashed&display=swap");
+    </style>
+  </head>
+  <body>
+    <section id="contactME">
+      <h1>Contact Me</h1>
+
+      <form action="https://formsubmit.co/farah.kh120@gmail.com" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+
+          <input
+            class="input"
+            type="text"
+            name="Name"
+            placeholder="Who are You?"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="email">email</label>
+          <input
+            class="input"
+            type="email"
+            name="Email"
+            placeholder="name@email.com"
+            required
+          />
+        </div>
+        <div class="field">
+          <label for="msg">msg</label>
+          <input
+            class="input"
+            type="text"
+            name="Message"
+            placeholder="Write your message here...."
+            required
+          />
+        </div>
+
+        <input id="outhman" type="submit" value="Send" />
+      </form>
+    </section>
+  </body>
+</html>

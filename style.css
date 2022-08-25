@@ -1,0 +1,85 @@
+* {
+  font-family: "Amiri", serif;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #dad7cd;
+  height: 100vh;
+  font-family: "Amiri", serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#contactME {
+  background-color: #3a5a40;
+  width: 80%;
+  text-align: center;
+  margin: 100px;
+  padding: 50px;
+  border-top: 15px solid #588157;
+}
+
+h1 {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: bolder;
+  color: #dad7cd;
+}
+
+form {
+  padding: 50px;
+  width: 60%;
+  margin: auto;
+}
+
+.field {
+  margin-bottom: 25px;
+  width: 100%;
+  display: grid;
+  position: relative;
+}
+
+label {
+  color: #3a5a40;
+  background-color: #dad7cd;
+  font-size: xx-large;
+  letter-spacing: 2px;
+  width: 700px;
+  padding: 0;
+  font-weight: bolder;
+  position: absolute;
+}
+
+.input {
+  height: 50px;
+  outline: none;
+  width: 700px;
+  padding-left: 20%;
+  box-sizing: border-box;
+}
+
+.field:hover label {
+  width: 18%;
+  background-color: #588157;
+  color: #dad7cd;
+  transition: all 0.5s ease-in-out;
+}
+
+#outhman {
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 2px;
+  border: none;
+  font-size: large;
+  font-weight: bolder;
+  color: #588157;
+}
+
+#outhman:hover {
+  background-color: #588157;
+  color: #dad7cd;
+  transition: 0.3s ease-in;
+}
